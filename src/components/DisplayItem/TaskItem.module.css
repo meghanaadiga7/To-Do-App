@@ -1,0 +1,16 @@
+.list {
+  list-style: none;
+  text-align: center;
+  margin: 2%;
+  padding: 2%;
+  font-size: 1.2rem;
+  color:black;
+  cursor:pointer
+}
+
+.card {
+  width: 60%;
+  margin: 1% auto;
+  padding: 0.1%;
+  background-color: rgb(228, 228, 144);
+}

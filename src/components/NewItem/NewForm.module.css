@@ -1,0 +1,57 @@
+.form {
+  text-align: center;
+  margin: 3%;
+  padding: 2rem;
+}
+
+.button {
+  background-color: rgb(228, 228, 144);
+  color: black;
+  border: 2px solid rgb(245, 245, 215);
+  border-radius: 12px;
+  margin: 0% 1%;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: 25%;
+  height:5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.input {
+  border: none;
+  outline: none;
+  padding: 0.3rem;
+  background-color: whitesmoke;
+  border-bottom: 2px solid grey;
+  width: 70%;
+  font-size: large;
+}
+
+.input:focus {
+  border-bottom: 2px solid black;
+}
+
+.button:hover {
+  background-color: rgb(237, 237, 166);
+}
+
+@media (max-width: 581px) {
+  .input {
+    width: 25%;
+  }
+
+  .form {
+    margin: 1%;
+    padding: 2rem 0.5rem;
+  }
+
+  .button {
+    width: 25%;
+    padding: 0.2rem;
+  }
+
+  .cardForm {
+    width: 90%;
+  }
+}
